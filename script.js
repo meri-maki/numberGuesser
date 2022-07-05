@@ -15,8 +15,8 @@ const compareGuesses = (humanGuess, computerGuess, targetGuess) => {
 }
  
   
-const checkHumanGuess = (humanGuess) => {
-    if(humanGuess < 0 || humanGuess > 9){ 
+const checkHumanGuess = (humanScore) => {
+    if(humanScore < 0 || humanScore > 9){ 
         window.alert("Please make sure your guess is between 0 and 9");
     }
 };
